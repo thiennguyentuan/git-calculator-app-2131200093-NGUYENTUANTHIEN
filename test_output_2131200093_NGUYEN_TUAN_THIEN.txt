@@ -1,0 +1,20 @@
+﻿node.exe : PASS tests/calculator.test.js
+At C:\Program Files\nodejs\npm.ps1:29 char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (PASS tests/calculator.test.js:Str 
+   ing) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  compute
+    ΓêÜ adds (3 ms)
+    ΓêÜ subs
+    ΓêÜ multiplies (1 ms)
+    ΓêÜ divides
+    ΓêÜ divide by zero (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        0.515 s, estimated 1 s
+Ran all test suites.
